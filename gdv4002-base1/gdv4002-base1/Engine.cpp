@@ -26,7 +26,7 @@ static std::map<std::string, int> objectCount;
 
 static bool _showAxisLines = true;
 
-static glm::vec4 backgroundColour(0.0f, 0.0f, 0.0f, 1.0f);
+static glm::vec4 backgroundColour(0.0f, 0.0f, 1.0f, 1.0f);
 
 static RenderFn overrideRenderFn = nullptr;
 static UpdateFn overrideUpdateFn = nullptr;
